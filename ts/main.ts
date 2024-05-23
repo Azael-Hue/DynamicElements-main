@@ -32,7 +32,7 @@ function displayProduct(prod:Product) {
     let displayDiv = document.querySelector("#productDisplay") as HTMLDivElement;
     displayDiv.innerHTML += 
         `
-            <div class="col-sm-12 col-md-4 mb-3 mx-auto ">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mx-auto ">
                 <div class="card" style="width: 18rem;">
                     <img src="https://placehold.co/250" class="card-img-top" alt="Just a blank placeholder">
                     <div class="card-body">
